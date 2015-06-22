@@ -1,0 +1,17 @@
+{
+    "name"      : "NWAlarm",
+    "version"   : "0.0.1",
+    "main"      : "index.html",
+    "webkit": {
+		"plugin": true
+	},
+    "window":{
+        "title"  : "NW Alarm",
+        "icon"   : "app/resources/icons/-128.png",
+        "height" : 700,
+        "width"  : 1000,
+        "toolbar": false,
+        "frame"  : false
+    },
+    "chromium-args": "--ppapi-flash-path=/opt/google/chrome-beta/PepperFlash/libpepflashplayer.so"
+}

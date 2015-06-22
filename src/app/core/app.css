@@ -1,0 +1,25 @@
+html,
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    background:rgb(0,0,0);
+    color:rgb(200,200,200);
+    overflow:hidden;
+    font-family:arial;
+}
+
+body{
+  box-shadow:inset 0 0 28px rgb(100,100,100);
+  -webkit-transition:background-color 500ms;
+  transition:background-color 500ms;
+}
+
+body * {
+    position:relative;
+}
+
+.hidden{
+    display:none;
+}

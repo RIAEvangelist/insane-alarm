@@ -1,0 +1,77 @@
+/*
+    CSS for the set-alarm module.
+    Do not leave file empty.
+*/
+.set-alarm-module{
+  position:absolute;
+  top:30px;
+  width:100%;
+  height:calc(100% - 30px);
+}
+
+.set-alarm-module ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+
+.set-alarm-module .setHours{
+  position:absolute;
+  width:46%;
+  height:100%;
+  left:2%;
+}
+
+.set-alarm-module .setMins{
+  position:absolute;
+  width:46%;
+  height:100%;
+  left:52%;
+}
+
+.set-alarm-module .title{
+  height:20px;
+  line-height:20px;
+  font-size:18px;
+}
+
+.set-alarm-module ul{
+  height:calc(100% - 20px);
+}
+
+.set-alarm-module .setHours li{
+  width:23%;
+  height:14%;
+  margin:1%;
+  display:inline-block;
+  background:rgb(50,50,50);
+  text-align:center;
+  line-height:65px;
+  font-size:30px;
+  overflow:hidden;
+  cursor:pointer;
+  transition:color 300ms, background-color 300ms;
+}
+
+.set-alarm-module .setMins li{
+  width:13%;
+  height:7.6%;
+  margin:1%;
+  display:inline-block;
+  background:rgb(50,50,50);
+  text-align:center;
+  line-height:40px;
+  font-size:24px;
+  overflow:hidden;
+  cursor:pointer;
+  transition:color 300ms, background-color 300ms;
+}
+
+.set-alarm-module li:hover{
+  background:rgb(180,200,180);
+  color:rgb(50,50,50);
+}
+
+.set-alarm-module li.selected{
+  background:rgb(100,150,100);
+}

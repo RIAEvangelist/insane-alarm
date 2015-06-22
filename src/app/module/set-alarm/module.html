@@ -1,0 +1,35 @@
+<!-- HTML contents for set-alarm don't leave file empty -->
+
+<div id='setHours'
+  class='setHours'>
+  <div class='title'>
+    Hour
+  </div>
+  <ul id='hourOptions'
+    class='hourOptions'>
+
+  </ul>
+</div>
+
+<div id='setMins'
+  class='setMins'>
+  <div class='title'>
+    Minute
+  </div>
+  <ul id='minOptions'
+    class='minOptions'>
+
+  </ul>
+</div>
+
+<template id='hour-option'>
+  <li hour='${hour}'>
+    ${hourDisplay}
+  </li>
+</template>
+
+<template id='min-option'>
+  <li min='${min}'>
+    ${min}
+  </li>
+</template>

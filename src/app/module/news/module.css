@@ -1,0 +1,15 @@
+/*
+    CSS for the news module.
+    Do not leave file empty.
+*/
+
+.news-module{
+  position:absolute;
+  top:30px;
+  left:0;
+  padding:10px 20px;
+  width:calc(100% - 40px);
+  font-size:20px;
+  font:helvetica, ubuntu, arial;
+  cursor:pointer;
+}

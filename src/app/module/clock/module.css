@@ -1,0 +1,64 @@
+/*
+    CSS for the clock module.
+    Do not leave file empty.
+*/
+
+.clock-module{
+    font-size: 200px;
+    font-family: 'DigitaldreamRegular';
+    color: rgb(255, 75, 75);
+    text-align: center;
+    padding: 50px;
+    height:100%;
+}
+
+.clock-module .hour,
+.clock-module .minute,
+.clock-module .seperator{
+  width:calc(50% - 50px);
+  position:absolute;
+  top:calc(50% - 150px);
+}
+.clock-module .hour{
+  left:0;
+  width:calc(50% - 70px);
+  text-align:right;
+}
+.clock-module .seperator{
+  left:calc(50% - 70px);
+  width:140px;
+  text-align:center;
+}
+.clock-module .minute{
+  right:0;
+  width:calc(50% - 70px);
+  text-align:left;
+}
+
+.clock-module .snooze,
+.clock-module .awake{
+  font-size: 40px;
+  padding: 20px;
+  background: rgba(130,130,130,.7);
+  margin: 20px;
+  position: absolute;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255,0,0,.7);
+  color: rgb(255,0,0);
+  text-shadow: 0 0 6px rgb(0,0,0);
+  bottom:100px;
+  display:none;
+}
+
+.clock-module.waitingToBeKilled .snooze,
+.clock-module.waitingToBeKilled .awake{
+  display:block;
+}
+
+.clock-module .snooze{
+  left:0;
+}
+
+.clock-module .awake{
+  right:0;
+}

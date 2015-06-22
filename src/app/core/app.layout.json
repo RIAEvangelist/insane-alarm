@@ -1,0 +1,40 @@
+{
+    "startAt":"home",
+    "lib" : [
+        {
+            "path":"app/core/app.css",
+            "type":"css"
+        },
+        {
+            "path":"app/resources/fonts/fonts.css",
+            "type":"css"
+        },
+        {
+            "path":"app/core/app.data.js",
+            "type":"js"
+        },
+        {
+            "path":"app/core/app.layout.js",
+            "type":"js"
+        }
+    ], "modules":{
+        "logic":[
+          "ambient"
+        ],
+        "ui" : {
+            "home" : {
+                "header"  : {},
+                "clock"   : {},
+                "news"    : {}
+            },
+            "setAlarm" : {
+                "header"  : {},
+                "set-alarm": {}
+            },
+            "settings" : {
+                "header"  : {},
+                "settings": {}
+            }
+        }
+    }
+}
