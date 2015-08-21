@@ -1,12 +1,12 @@
 {
-    "name"      : "NWAlarm",
+    "name"      : "InsaneAlarm",
     "version"   : "0.0.1",
     "main"      : "index.html",
     "webkit": {
 		"plugin": true
 	},
     "window":{
-        "title"  : "NW Alarm",
+        "title"  : "Insane Alarm",
         "icon"   : "app/resources/icons/-128.png",
         "height" : 700,
         "width"  : 1000,
