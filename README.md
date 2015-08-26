@@ -4,3 +4,12 @@ This is a desktop port (nw.js) of my very first chrome app programmed one night 
 So I naturally did what any programmer would do, I programmed my own, with the LOUDEST alarm based off of an emergency alarm from when I was in the military. I couldn't find a good sound to match it in my intoxicated state... so I made my own using the Web Audio Context and Oscillator nodes.
 
 It supports Windows, Mac and Linux.
+
+## Downloads
+Download the program or binaries for your system from our [insane alarm releases](https://github.com/RIAEvangelist/insane-alarm/releases)
+
+## Building from src
+1. You will need nodejs installed.
+2. run ` npm install ` from the insane-alarm directory (not the src directory). This should ` npm install nw-builder ` for the build script
+3. run node ` build.js ` from the insane alarm directory.
+4. run your build from the build folder created!
