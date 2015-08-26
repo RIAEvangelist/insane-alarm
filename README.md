@@ -5,8 +5,20 @@ So I naturally did what any programmer would do, I programmed my own, with the L
 
 It supports Windows, Mac and Linux.
 
-## Downloads
+## Download Alarm
 Download the program or binaries for your system from our [insane alarm releases](https://github.com/RIAEvangelist/insane-alarm/releases)
+
+## Features
+1. Loud as hell!
+2. Adjusts brightness and colors based on ambient light.
+3. Easy to use alarm settings.
+4. Displays news headlines from CNN.
+
+## Alarm screenshots
+![Dark clock](https://github.com/RIAEvangelist/insane-alarm/blob/master/imgs/dark-clock.png)
+![Dark alarm](https://github.com/RIAEvangelist/insane-alarm/blob/master/imgs/dark-alarm.png)
+![Light clock](https://github.com/RIAEvangelist/insane-alarm/blob/master/imgs/light-clock.png)
+![Light alarm](https://github.com/RIAEvangelist/insane-alarm/blob/master/imgs/light-alarm.png)
 
 ## Building from src
 1. You will need nodejs installed.
