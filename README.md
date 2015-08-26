@@ -11,5 +11,5 @@ Download the program or binaries for your system from our [insane alarm releases
 ## Building from src
 1. You will need nodejs installed.
 2. run ` npm install ` from the insane-alarm directory (not the src directory). This should ` npm install nw-builder ` for the build script
-3. run node ` build.js ` from the insane alarm directory.
+3. run ` node build.js ` from the insane alarm directory.
 4. run your build from the build folder created!
