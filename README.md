@@ -13,3 +13,6 @@ Download the program or binaries for your system from our [insane alarm releases
 2. run ` npm install ` from the insane-alarm directory (not the src directory). This should ` npm install nw-builder ` for the build script
 3. run ` node build.js ` from the insane alarm directory.
 4. run your build from the build folder created!
+
+## Licensed un DBAD
+See the [DBAD license](https://github.com/philsturgeon/dbad) in your language or our [licence.md](https://github.com/RIAEvangelist/insane-alarm/blob/master/license.md) file.
