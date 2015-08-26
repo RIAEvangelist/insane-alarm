@@ -1,0 +1,30 @@
+{
+  "name": "insane-alarm",
+  "version": "1.0.0",
+  "description": "Alarm which will wake you up no matter what!",
+  "main": "./src/",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RIAEvangelist/insane-alarm.git"
+  },
+  "keywords": [
+    "alarm",
+    "insane",
+    "loud",
+    "clock",
+    "wake",
+    "up"
+  ],
+  "author": "Brandon Noazaki Miller",
+  "license": "DBAD",
+  "bugs": {
+    "url": "https://github.com/RIAEvangelist/insane-alarm/issues"
+  },
+  "homepage": "https://github.com/RIAEvangelist/insane-alarm",
+  "dependencies": {
+    "nw-builder": "^2.0.2"
+  }
+}
