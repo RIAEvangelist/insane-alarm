@@ -8,6 +8,11 @@ It supports Windows, Mac and Linux.
 ## Download Alarm
 Download the program or binaries for your system from our [insane alarm releases](https://github.com/RIAEvangelist/insane-alarm/releases)
 
+## Support by Purchasing alarm
+
+[insane alarm](https://gum.co/insane-alarm)
+If this alarm has saved your but, woken you, your spouse, children, animals and or neighbors up, please take a moment to show this app is worth a dollar to you! Its just a buck, you probably have lost 10x that much between the center console and your seat in the car. Show some love!
+
 ## Features
 1. Loud as hell!
 2. Adjusts brightness and colors based on ambient light.
