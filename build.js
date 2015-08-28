@@ -5,7 +5,7 @@ var nw = new NwBuilder(
         platforms: ['osx', 'win','linux'],
         winIco: './src/app/resources/icons/-128.ico',
         macZip:true,
-        version:0.12.2
+        version:'0.12.2'
     }
 );
 
